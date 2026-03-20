@@ -8,7 +8,7 @@ Página da comunidade DevParaná na cidade de **Guarapuava, PR**.
 
 | Nome | LinkedIn |
 |---|---|
-| <!-- Adicionar nome --> | <!-- linkedin.com/in/usuario --> |
+| Luiz Schons | [linkedin.com/in/luiz-schons](https://www.linkedin.com/in/luiz-schons) |
 
 ## Meetups
 
