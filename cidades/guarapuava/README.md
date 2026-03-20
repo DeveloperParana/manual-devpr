@@ -11,6 +11,7 @@ Página da comunidade DevParaná na cidade de **Guarapuava, PR**.
 | Luiz Schons    | [linkedin.com/in/luiz-schons](https://www.linkedin.com/in/luiz-schons) |
 | Leonardo Tosin | [linkedin.com/in/tosin-leo](https://www.linkedin.com/in/tosin-leo/)    |
 | Nestor Hugo    | [linkedin.com/in/nestorhugo](https://www.linkedin.com/in/nestorhugo/)  |
+| Eliézer Buczak Boeira | [linkedin.com/in/eliezer-buczak-boeira](https://www.linkedin.com/in/eliezer-buczak-boeira)  |
 
 ## Meetups
 
