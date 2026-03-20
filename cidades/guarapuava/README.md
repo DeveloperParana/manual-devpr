@@ -6,10 +6,11 @@ Página da comunidade DevParaná na cidade de **Guarapuava, PR**.
 
 ## Líderes locais
 
-| Nome | LinkedIn |
-|---|---|
-| Luiz Schons | [linkedin.com/in/luiz-schons](https://www.linkedin.com/in/luiz-schons) |
-| Leonardo Tosin | [linkedin.com/in/tosin-leo](https://www.linkedin.com/in/tosin-leo/) |
+| Nome           | LinkedIn                                                               |
+| -------------- | ---------------------------------------------------------------------- |
+| Luiz Schons    | [linkedin.com/in/luiz-schons](https://www.linkedin.com/in/luiz-schons) |
+| Leonardo Tosin | [linkedin.com/in/tosin-leo](https://www.linkedin.com/in/tosin-leo/)    |
+| Nestor Hugo    | [linkedin.com/in/nestorhugo](https://www.linkedin.com/in/nestorhugo/)  |
 
 ## Meetups
 
