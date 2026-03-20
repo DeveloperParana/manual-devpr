@@ -18,9 +18,7 @@
   --surface: #FFFFFF;
   --on-surface-high: rgba(0, 0, 0, 0.9);
   --on-surface-medium: rgba(0, 0, 0, 0.66);
-  --on-primary-high: rgba(255, 255, 255, 0.95);
-  --dark-bg: #1a1a2e;
-  --dark-surface: #16213e;
+  --on-surface-light: rgba(0, 0, 0, 0.4);
 }
 
 html, body {
@@ -28,8 +26,8 @@ html, body {
   height: 100%;
   overflow: hidden;
   font-family: 'Raleway', sans-serif;
-  background: var(--dark-bg);
-  color: var(--on-primary-high);
+  background: var(--surface);
+  color: var(--on-surface-high);
 }
 
 .slide {
@@ -37,7 +35,7 @@ html, body {
   width: 100vw;
   height: 100vh;
   padding: 60px 80px;
-  background: var(--dark-bg);
+  background: var(--surface);
   position: relative;
   overflow: hidden;
 }
@@ -68,11 +66,16 @@ html, body {
 }
 
 /* Logo */
+.logo-img {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
 .logo-text {
   font-family: 'Montserrat', sans-serif;
   font-size: 80px;
   font-weight: 900;
-  color: var(--on-primary-high);
+  color: var(--on-surface-high);
   letter-spacing: -3px;
   margin-bottom: 10px;
 }
@@ -86,7 +89,7 @@ h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 56px;
   font-weight: 700;
-  color: var(--on-primary-high);
+  color: var(--on-surface-high);
   letter-spacing: -2px;
   margin-bottom: 16px;
 }
@@ -95,7 +98,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   font-weight: 700;
-  color: var(--on-primary-high);
+  color: var(--on-surface-high);
   letter-spacing: -1px;
   margin-bottom: 8px;
 }
@@ -104,19 +107,19 @@ p {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.75);
+  color: var(--on-surface-medium);
   line-height: 1.6;
 }
 
 .subtitle {
   font-size: 24px;
-  color: var(--primary-300);
+  color: var(--primary-600);
   font-weight: 500;
 }
 
 .hint {
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--on-surface-light);
   margin-top: 40px;
 }
 
@@ -148,8 +151,8 @@ p {
 
 .card {
   flex: 1;
-  background: var(--dark-surface);
-  border: 1px solid rgba(21, 160, 75, 0.3);
+  background: var(--primary-50);
+  border: 1px solid var(--primary-200);
   border-radius: 12px;
   padding: 32px;
   text-align: center;
@@ -159,12 +162,12 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-size: 48px;
   font-weight: 900;
-  color: var(--primary-400);
+  color: var(--primary-700);
 }
 
 .card-label {
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--on-surface-medium);
   margin-top: 8px;
 }
 
@@ -180,7 +183,7 @@ p {
   display: flex;
   align-items: flex-start;
   gap: 20px;
-  background: var(--dark-surface);
+  background: var(--primary-50);
   border-left: 4px solid var(--primary-500);
   border-radius: 0 8px 8px 0;
   padding: 20px 24px;
@@ -190,8 +193,8 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 14px;
-  color: var(--primary-500);
-  background: rgba(21, 160, 75, 0.15);
+  color: var(--primary-700);
+  background: var(--primary-100);
   border-radius: 8px;
   padding: 10px 12px;
   min-width: 48px;
@@ -201,14 +204,14 @@ p {
 .contribute-item strong {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  color: var(--on-primary-high);
+  color: var(--on-surface-high);
   display: block;
   margin-bottom: 4px;
 }
 
 .contribute-item p {
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--on-surface-medium);
   line-height: 1.4;
 }
 
@@ -221,8 +224,8 @@ p {
 
 .link-card {
   flex: 1;
-  background: var(--dark-surface);
-  border: 1px solid rgba(21, 160, 75, 0.3);
+  background: var(--surface);
+  border: 1px solid var(--primary-200);
   border-radius: 12px;
   padding: 28px;
   text-align: left;
@@ -231,19 +234,19 @@ p {
 .link-card strong {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  color: var(--on-primary-high);
+  color: var(--on-surface-high);
   display: block;
   margin-bottom: 8px;
 }
 
 .link-card p {
   font-size: 15px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--on-surface-light);
   margin-bottom: 12px;
 }
 
 .link-card a {
-  color: var(--primary-400);
+  color: var(--primary-600);
   font-size: 14px;
   text-decoration: none;
   word-break: break-all;
@@ -258,14 +261,14 @@ blockquote {
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   font-weight: 700;
-  color: var(--on-primary-high);
+  color: var(--on-surface-high);
   line-height: 1.5;
   margin: 30px auto;
   max-width: 700px;
 }
 
 blockquote strong {
-  color: var(--primary-400);
+  color: var(--primary-600);
 }
 
 /* QR Code */
@@ -279,12 +282,13 @@ blockquote strong {
   border-radius: 12px;
   padding: 16px;
   background: white;
+  border: 2px solid var(--primary-200);
 }
 
 .qr-url {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  color: var(--primary-400);
+  color: var(--primary-600);
   font-weight: 600;
   margin-top: 16px;
 }
@@ -301,9 +305,9 @@ blockquote strong {
 }
 
 .nav button {
-  background: var(--dark-surface);
-  border: 1px solid rgba(21, 160, 75, 0.4);
-  color: var(--primary-400);
+  background: var(--surface);
+  border: 1px solid var(--primary-300);
+  color: var(--primary-600);
   font-size: 20px;
   width: 44px;
   height: 44px;
@@ -313,13 +317,13 @@ blockquote strong {
 }
 
 .nav button:hover {
-  background: rgba(21, 160, 75, 0.2);
+  background: var(--primary-50);
 }
 
 #slide-counter {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--on-surface-light);
 }
 
 /* Print / PDF */
