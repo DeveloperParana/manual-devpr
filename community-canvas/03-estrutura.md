@@ -23,12 +23,7 @@ O DevParaná adota um modelo de governança onde **as decisões são discutidas 
 
 ### Admissão de grupos afiliados
 
-O processo é formalizado via pull request no repositório [afiliados](https://github.com/DeveloperParana/afiliados):
-
-1. Candidato abre PR com informações do grupo
-2. Organização analisa em até 30 dias
-3. Interações acontecem no próprio PR
-4. Aprovação vinculada ao aceite das regras do programa
+Para se tornar um grupo afiliado do DevParaná, o interessado deve **entrar em contato com um líder da sua região**. Esse líder vai orientar sobre o processo, alinhar expectativas e ajudar na integração do grupo à rede da comunidade.
 
 ### Código de Conduta como base legal
 

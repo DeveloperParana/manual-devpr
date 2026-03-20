@@ -68,9 +68,11 @@ Qualquer pessoa pode submeter uma palestra. Os grupos podem usar um formulário 
 
 > _"Você pode incentivar que novas pessoas iniciem suas vidas como palestrantes, criando um ciclo que retroalimenta sua comunidade."_
 
-### Pull Request como porta de entrada
+### Pull Request como forma de contribuição
 
-Quer entrar no programa de afiliados? Envie um PR. Quer contribuir com código? Envie um PR. Quer corrigir o manual? Envie um PR. O processo de contribuição via GitHub é intencional — ensina práticas open source enquanto constrói a comunidade.
+Quer contribuir com código? Envie um PR. Quer corrigir o manual? Envie um PR. O processo de contribuição via GitHub é intencional — ensina práticas open source enquanto constrói a comunidade.
+
+Para se tornar um grupo afiliado, o caminho é **entrar em contato com um líder da sua região** — ele vai te orientar sobre o processo.
 
 ### Certificados de participação
 
@@ -195,7 +197,7 @@ Obrigatório para todos os eventos e canais da comunidade. Pontos centrais:
 ### 6. Multiplicação
 
 - Cria um novo grupo de meetup na sua cidade
-- Aplica para o programa de afiliados
+- Conversa com líderes da região para afiliar seu grupo
 - Forma outros líderes
 - Contribui para a sustentabilidade da comunidade
 
