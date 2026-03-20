@@ -37,20 +37,24 @@ document.addEventListener('keydown', function(e) {
   }
 });
 
-// QR Code
-QRCode.toCanvas(
-  document.createElement('canvas'),
-  'https://github.com/DeveloperParana/manual-devpr',
-  {
-    width: 250,
-    margin: 1,
-    color: { dark: '#15A04B', light: '#FFFFFF' }
-  },
-  function(error, canvas) {
-    if (!error) {
-      document.getElementById('qrcode').appendChild(canvas);
-    }
+// QR Codes
+var qrConfig = { width: 120, margin: 1, color: { dark: '#15A04B', light: '#FFFFFF' } };
+var qrMainConfig = { width: 250, margin: 1, color: { dark: '#15A04B', light: '#FFFFFF' } };
+
+var qrItems = [
+  { id: 'qr-cfp', url: 'https://forms.gle/yfdG15syLh6cjzCS9', config: qrConfig },
+  { id: 'qr-empresa', url: 'https://forms.gle/kygV8SKqLS3ii2pv6', config: qrConfig },
+  { id: 'qr-apoiar', url: 'https://opencollective.com/codaqui/projects/devpr', config: qrConfig },
+  { id: 'qrcode', url: 'https://github.com/DeveloperParana/manual-devpr', config: qrMainConfig }
+];
+
+qrItems.forEach(function(item) {
+  var el = document.getElementById(item.id);
+  if (el) {
+    QRCode.toCanvas(document.createElement('canvas'), item.url, item.config, function(error, canvas) {
+      if (!error) el.appendChild(canvas);
+    });
   }
-);
+});
 
 showSlide(1);

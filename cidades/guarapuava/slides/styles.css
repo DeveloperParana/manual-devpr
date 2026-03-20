@@ -256,6 +256,17 @@ p {
   text-decoration: underline;
 }
 
+.link-qr {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.link-qr canvas {
+  border-radius: 6px;
+  background: white;
+}
+
 /* Blockquote */
 blockquote {
   font-family: 'Montserrat', sans-serif;
