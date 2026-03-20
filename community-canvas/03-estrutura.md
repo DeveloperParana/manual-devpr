@@ -103,10 +103,11 @@ Ao divulgar eventos:
 
 O DevParaná opera **sem fins lucrativos**. Os recursos vêm de:
 
-1. **Patrocínios de empresas** — principalmente para coffee break e infraestrutura de eventos
-2. **Programa de afiliados** — R$ 50,00 por meetup para alimentação (quando não há patrocinador)
-3. **Parcerias** — empresas cedem espaço, universidades emprestam auditórios
-4. **Associação Codaqui** — entidade que formaliza parcerias institucionais
+1. **Open Collective** — Principal canal de doações e transparência financeira, via [opencollective.com/codaqui/projects/devpr](https://opencollective.com/codaqui/projects/devpr). Qualquer pessoa pode contribuir com doações recorrentes ou pontuais, e todo o histórico de receitas e despesas é público.
+2. **Patrocínios de empresas** — principalmente para coffee break e infraestrutura de eventos
+3. **Programa de afiliados** — Verba para alimentação de meetups (quando não há patrocinador)
+4. **Parcerias** — empresas cedem espaço, universidades emprestam auditórios
+5. **Associação Codaqui** — entidade que formaliza parcerias institucionais
 
 ### Regras para uso de recursos
 
