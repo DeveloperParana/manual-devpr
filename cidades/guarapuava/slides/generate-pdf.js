@@ -3,22 +3,19 @@ const QRCode = require('qrcode');
 const path = require('path');
 
 (async () => {
-  // Gerar QR Code como data URL
-  const qrDataUrl = await QRCode.toDataURL(
+  var qrDataUrl = await QRCode.toDataURL(
     'https://github.com/DeveloperParana/manual-devpr',
     { width: 250, margin: 1, color: { dark: '#15A04B', light: '#FFFFFF' } }
   );
 
-  const browser = await puppeteer.launch({ headless: true });
-  const page = await browser.newPage();
+  var browser = await puppeteer.launch({ headless: true });
+  var page = await browser.newPage();
   await page.setViewport({ width: 1920, height: 1080 });
 
-  const filePath = 'file://' + path.resolve(__dirname, 'index.html');
+  var filePath = 'file://' + path.resolve(__dirname, 'index.html');
   await page.goto(filePath, { waitUntil: 'load', timeout: 30000 });
 
-  // Injetar QR Code como imagem e mostrar todos os slides
-  await page.evaluate((qrSrc, total) => {
-    // Injetar QR code
+  await page.evaluate((qrSrc) => {
     var qrDiv = document.getElementById('qrcode');
     if (qrDiv) {
       var img = document.createElement('img');
@@ -29,17 +26,29 @@ const path = require('path');
       img.style.border = '2px solid #8AD0A5';
       qrDiv.appendChild(img);
     }
-    // Esconder navegacao
+
     var nav = document.querySelector('.nav');
-    if (nav) nav.style.display = 'none';
-    // Mostrar todos os slides
-    for (var i = 1; i <= total; i++) {
-      var slide = document.getElementById('slide-' + i);
-      slide.classList.add('active');
+    if (nav) nav.remove();
+
+    var slides = document.querySelectorAll('.slide');
+    slides.forEach(function(slide) {
       slide.style.display = 'flex';
+      slide.style.width = '1920px';
+      slide.style.height = '1080px';
+      slide.style.minHeight = '1080px';
+      slide.style.maxHeight = '1080px';
       slide.style.pageBreakAfter = 'always';
-    }
-  }, qrDataUrl, 7);
+      slide.style.breakAfter = 'page';
+      slide.style.overflow = 'hidden';
+      slide.style.alignItems = 'center';
+      slide.style.justifyContent = 'center';
+      slide.classList.add('active');
+    });
+
+    document.body.style.width = '1920px';
+    document.body.style.overflow = 'visible';
+    document.documentElement.style.overflow = 'visible';
+  }, qrDataUrl);
 
   await new Promise(r => setTimeout(r, 1000));
 
@@ -49,6 +58,7 @@ const path = require('path');
     width: '1920px',
     height: '1080px',
     printBackground: true,
+    preferCSSPageSize: false,
   });
 
   console.log('PDF gerado: ' + outputPath);
