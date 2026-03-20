@@ -19,12 +19,6 @@ Página da comunidade DevParaná na cidade de **Guarapuava, PR**.
 - **Duração média:** ~2 horas
 - **Eventos:** [Meetup.com do DevParaná](https://www.meetup.com/pt-BR/developerparana/)
 
-### Locais parceiros
-
-| Local | Tipo | Capacidade | Contato |
-|---|---|---|---|
-| <!-- Nome --> | <!-- Empresa / Universidade / Auditório --> | <!-- Nº pessoas --> | <!-- Nome da pessoa --> |
-
 ## Como participar
 
 1. Acompanhe os eventos no [Meetup.com](https://www.meetup.com/pt-BR/developerparana/)
