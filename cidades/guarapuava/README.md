@@ -12,6 +12,7 @@ Página da comunidade DevParaná na cidade de **Guarapuava, PR**.
 | Leonardo Tosin | [linkedin.com/in/tosin-leo](https://www.linkedin.com/in/tosin-leo/)    |
 | Nestor Hugo    | [linkedin.com/in/nestorhugo](https://www.linkedin.com/in/nestorhugo/)  |
 | Eliézer Buczak Boeira | [linkedin.com/in/eliezer-buczak-boeira](https://www.linkedin.com/in/eliezer-buczak-boeira)  |
+| João Paulo Vasconcelos| [linkedin.com/in/joao-paulo-vasconcelo-do-vale](https://www.linkedin.com/in/joao-paulo-vasconcelos-do-vale-1ba708204/) |
 
 ## Meetups
 
