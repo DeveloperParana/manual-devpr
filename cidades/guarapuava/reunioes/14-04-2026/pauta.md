@@ -26,6 +26,7 @@
 | Submeter talk no C4P | Leo Tosin | - |
 | Preparar talk para o meetup de maio | Alana Maiumy e Junior | Maio/2026 |
 | Divulgação do Meetup e do Workshop | Todos | - |
+| Mudar a linguagem para ser mais humana e acolhedora | Nestor Hugo e Alana Maiumy | - |
 | Encontrar local para o próximo Meetup | João Paulo Vasconcelos | - |
 
 ## Próximos passos
