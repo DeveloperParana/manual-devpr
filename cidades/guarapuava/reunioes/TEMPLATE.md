@@ -1,7 +1,9 @@
 # Pauta da Reunião - DevParaná Guarapuava
 
 **Data:** DD/MM/AAAA
+
 **Local:**
+
 **Participantes:**
 
 ---

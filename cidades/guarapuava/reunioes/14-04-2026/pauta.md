@@ -1,8 +1,8 @@
 # Pauta da Reunião - DevParaná Guarapuava
 
 **Data:** 14/04/2026
-**Local:**
-**Participantes:** Schons, Alana Maiumy, Junior, João Paulo Vasconcelos, Elizer, Leo Tosin, Willian Neri, Nestor Hugo, Ricardo Martins
+
+**Local:** Google Meet — https://meet.google.com/jvu-fwwc-kee
 
 ---
 
